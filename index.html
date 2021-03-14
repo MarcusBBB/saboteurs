@@ -48,8 +48,9 @@
 					<div class="column">
 						<div class="image">
 							<img
-								src="resources/images/redhaired girl.jpg"
-								alt="redhaired girl"
+								src="resources/images/kleinformaat/redhaired girl.jpg"
+								data-fullsrc="resources/images/redhaired girl.jpg"
+								alt=""
 							/>
 							<h3>Aria</h3>
 							<p>
@@ -59,8 +60,9 @@
 						</div>
 						<div class="image">
 							<img
-								src="resources/images/serious looking young man.jpg"
-								alt="..."
+								src="resources/images/kleinformaat/serious looking young man.jpg"
+								data-fullsrc="resources/images/serious looking young man.jpg"
+								alt=""
 							/>
 							<h3>Pastaman</h3>
 							<p>
@@ -70,8 +72,9 @@
 						</div>
 						<div class="image">
 							<img
-								src="resources/images/smiling woman, pink background.jpg"
-								alt="..."
+								src="resources/images/kleinformaat/smiling woman, pink background.jpg"
+								data-fullsrc="resources/images/smiling woman, pink background.jpg"
+								alt=""
 							/>
 							<h3>Peace-flower</h3>
 							<p>
@@ -82,7 +85,11 @@
 					</div>
 					<div class="column">
 						<div class="image">
-							<img src="resources/images/young man.jpg" alt="..." />
+							<img
+								src="resources/images/kleinformaat/young man.jpg"
+								data-fullsrc="resources/images/young man.jpg"
+								alt=""
+							/>
 							<h3>Captain Mack</h3>
 							<p>
 								Captain Mack weet altijd de weg. Anderen schrikken soms een
@@ -92,8 +99,9 @@
 						</div>
 						<div class="image">
 							<img
-								src="resources/images/black-and-white man loenst extreem.jpg"
-								alt="..."
+								src="resources/images/kleinformaat/black-and-white man loenst extreem.jpg"
+								data-fullsrc="resources/images/black-and-white man loenst extreem.jpg"
+								alt=""
 							/>
 							<h3>Pastaman2</h3>
 							<p>
@@ -105,8 +113,9 @@
 					<div class="column">
 						<div class="image peaceflower2">
 							<img
-								src="resources/images/woman looking straight in camera.jpg"
-								alt="..."
+								src="resources/images/kleinformaat/woman looking straight in camera.jpg"
+								data-fullsrc="resources/images/woman looking straight in camera.jpg"
+								alt=""
 							/>
 							<h3>Peace-flower2</h3>
 							<p>
@@ -115,7 +124,11 @@
 							</p>
 						</div>
 						<div class="image">
-							<img src="resources/images/man with beard.jpg" alt="..." />
+							<img
+								src="resources/images/kleinformaat/man with beard.jpg"
+								data-fullsrc="resources/images/man with beard.jpg"
+								alt=""
+							/>
 							<h3>Captain Mack2</h3>
 							<p>
 								Captain Mack2 weet altijd de weg. Anderen schrikken soms een
@@ -131,7 +144,8 @@
 				<div class="spacer">
 					<div class="vuurwerk image">
 						<img
-							src="resources/images/mensen met lichtjes op het strand, vuurwerk.jpg"
+							src="resources/images/kleinformaat/mensen met lichtjes op het strand, vuurwerk.jpg"
+							data-fullsrc="resources/images/mensen met lichtjes op het strand, vuurwerk.jpg"
 							alt="mensen met lichtjes op het strand, vuurwerk"
 						/>
 						<div class="text">
@@ -160,7 +174,10 @@
 						</div>
 					</div>
 					<div class="spring image">
-						<img src="resources/images/spring.jpg" />
+						<img
+							src="resources/images/kleinformaat/spring.jpg"
+							data-fullsrc="resources/images/spring.jpg"
+						/>
 						<div class="text">
 							<h4>Waarom gebruiken we het?</h4>
 							<p>
@@ -225,8 +242,10 @@
 			</div>
 		</footer>
 		<script>
-			document.getElementById('banner').innerHTML =
-				'the width is:' + window.innerWidth;
+			let widthText = document.createTextNode(window.innerWidth);
+			let widthElement = document.createElement('h1');
+			widthElement.appendChild(widthText);
+			document.getElementById('banner').appendChild(widthElement);
 			window.addEventListener('resize', () => console.log(window.innerWidth));
 		</script>
 	</body>

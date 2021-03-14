@@ -28,6 +28,7 @@ nav ul {
 	justify-content: space-around;
 	align-items: center;
 	margin: 0;
+	padding: 0;
 }
 
 nav li {
@@ -224,10 +225,6 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 1400px) {
-	#nav ul {
-		justify-content: left;
-	}
-
 	#leden .image {
 		width: 45%;
 	}
@@ -242,12 +239,6 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 1250px) {
-	#banner,
-	section,
-	footer {
-		top: 5rem;
-	}
-
 	#banner {
 		width: 100%;
 	}
@@ -270,6 +261,7 @@ footer a:hover {
 	#acties .image .text {
 		overflow: scroll;
 	}
+
 	.spring {
 		bottom: 0;
 		left: 40%;
@@ -302,7 +294,7 @@ footer a:hover {
 	#banner h1 {
 		border: none;
 		width: 100%;
-		color: rgb(56, 56, 56);
+		color: rgb(100, 100, 100);
 	}
 
 	#leden .image p {
@@ -332,15 +324,15 @@ footer a:hover {
 
 @media only screen and (max-width: 600px) {
 	section {
-		padding: 0;
+		padding: 32px 0;
+	}
+
+	p {
+		width: 97%;
 	}
 
 	#leden .image {
 		margin: 0 auto;
-	}
-
-	#leden .spacer {
-		max-width: 100%;
 	}
 
 	#leden .image {

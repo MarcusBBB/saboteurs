@@ -4,21 +4,15 @@
 
 ## Table of contents
 
-- [Project Name](#project-name)
-  - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Screenshots](#screenshots)
-  - [Technologies](#technologies)
-  - [Setup](#setup)
-  - [Code Examples](#code-examples)
-  - [Features](#features)
-  - [Status](#status)
-  - [Inspiration](#inspiration)
-  - [Contact](#contact)
+- [General info](#general-info)
+-
+- [Features](#features)
+- [Status](#status)
+- [Contact](#contact)
 
 ## General info
 
-Add more general information about project. What the purpose of the project is? Motivation?
+A website about my favorite hikinggroup with lot's of responsive features
 
 ## Screenshots
 
@@ -41,29 +35,17 @@ Show examples of usage:
 
 ## Features
 
-List of features ready and TODOs for future development
-
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
 To-do list:
 
-- check out the current breakpoints
-- add smaller images so it'll load faster in a smaller screensize
-- the title background and title should expand.
 - the navbar should adjust to smaller sizes
-- add picture of me
-- let pictures be in one line and use the full screensize
+- the text overflows in deel acties
+- the pictures don't connect in small size
+- on my telefoon it takes the screensize of 980 but smaller would be better.
 
 ## Status
 
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-
-Add here credits. Project inspired by..., based on...
+Project is: in progress
 
 ## Contact
 
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [Marcus](marcusbrandes.me) - feel free to contact me!

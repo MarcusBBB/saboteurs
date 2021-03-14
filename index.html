@@ -225,9 +225,8 @@
 			</div>
 		</footer>
 		<script>
-			document.getElementById('banner').innerHTML = (
-				<h1>the width is: ${window.innerWidth}</h1>
-			);
+			document.getElementById('banner').innerHTML =
+				'the width is:' + window.innerWidth;
 			window.addEventListener('resize', () => console.log(window.innerWidth));
 		</script>
 	</body>

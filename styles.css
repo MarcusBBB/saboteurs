@@ -49,6 +49,7 @@ nav li {
 
 p {
 	margin: 0 auto;
+	max-width: 800px;
 }
 
 /*  MAIN  */
@@ -76,6 +77,10 @@ section {
 	margin: 0 auto;
 }
 
+section:not(:last-child) {
+	min-height: 100vh;
+	padding-top: 5rem;
+}
 /*  BANNER  */
 #banner {
 	width: 60%;
@@ -289,7 +294,14 @@ footer a:hover {
 		background-image: none;
 		font-size: 1rem;
 	}
-
+	#mainpage img {
+		width: 3.5rem;
+		position: fixed;
+		z-index: 20;
+		border-radius: 100%;
+		right: 1.5rem;
+		top: 5.5rem;
+	}
 	#banner h1 {
 		border: none;
 		width: 100%;
